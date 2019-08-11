@@ -1,3 +1,11 @@
 def using_push(array, string)
   array.push(string)
 end
+
+def using_unshift(array, string)
+  array.unshift(string) #adds to the front of array
+end
+
+def using_pop(array)
+  array.pop 
+end
